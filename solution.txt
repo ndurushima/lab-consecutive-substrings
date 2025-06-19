@@ -1,2 +1,10 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+pseudocode:
+    We want a function that produces a consecutive substrings of and string that gets put into it. We want the result to be in an array format.     
+    the looping function will check only consecutive lengths in the string. If the next character is consecutive it will display in the array and if it is not then it will skip it. 
+
+
+Which Big O:
+    I think that the big O for this would O(n^2) because the outer loop AND the inner loop both run through the string n times for each index. 
